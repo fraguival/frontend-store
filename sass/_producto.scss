@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+    .shirt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+}
+.shirt__text {
+    color: $light;
+}
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.form__field {
+    background-color: transparent;
+    color: $light;
+    font-size: 20px;
+    padding: 12px;
+    appearance: none;
+    border: 12px solid$first;
+    border-radius: 12px;
+}
+.form__send {
+    grid-column: 1 / 3;
+    background-color: $third;
+    color: $light;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+    transition: background-color .5s ease;
+}
+.form__send:hover {
+    background-color: $fourth;
+    cursor: pointer;
+}

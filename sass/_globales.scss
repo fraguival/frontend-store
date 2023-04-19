@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Staatliches&display=swap');
+
+$first: #400;
+$second: #600;
+$third: #eb802d;
+$fourth: #ffb84c;
+$light: #fff;
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: $second;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+p {
+    
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    border: 8px solid $third ;
+    border-radius: 12px;
+}
+.container {
+    max-width: 1200px;
+    width: 96%;
+    margin: 0 auto;
+}
+h2, h3 {
+    color: $third;
+    text-align: center;
+}
+
+h2 { font-size: 40px; }
+h3 { font-size: 28px; }

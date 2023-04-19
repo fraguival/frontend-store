@@ -1,0 +1,43 @@
+// header
+.header__logo {
+    color: $light;
+    font-size: 60px;
+    margin-top: 12px;
+    text-align: center;
+}
+.logo__bold {
+    
+    color: $third;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+// nav
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    background-color: $first;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+.nav__link {
+    color: $light;
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav__link--active, .nav__link:hover {
+    color: $third;
+}
+.footer {
+    background-color: $first;
+    margin: 24px 0;
+    padding: 12px;
+    border-radius: 8px;
+}
+.footer__text {
+    color: $light;
+    text-align: center;
+}
